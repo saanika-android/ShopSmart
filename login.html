@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- <link rel="stylesheet" type="text/css" href="CSS/navbar.css"> -->
+    <link rel="stylesheet" type="text/css" href="login.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- <script type="text/javascript" src="js/location.js"></script> -->
+    <!-- <script type="text/javascript" src="login_validations.js"></script>  -->
+</head>
+
+<body>
+        <div class="login_background">
+            <div class="login_container">
+                <h1>LOGIN</h1><br>
+                <form action="/login" method="POST" onsubmit="return validateForm()">
+                    <label> Email</label><br>
+                    <center><input type="text" placeholder="Enter your email" required name="email"></center><br><br>
+                    <label>Password</label><br>
+                    <center><input type="password" placeholder="Enter password" required name="password"></center><br>
+                    <center>
+                        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                    </center>
+                    <center><button type="submit">Login </button></center>
+                </form>
+            </div>
+        </div>
+
+</body>
+
+</html>
